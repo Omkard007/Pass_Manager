@@ -1,5 +1,3 @@
-
-import Navbar from "@/components/ui/navbar"
 import VantaBackground from "@/components/ui/VantaGlobe"
 function App() {
   return (
@@ -16,3 +14,4 @@ function App() {
 }
 
 export default App
+  
