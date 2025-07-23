@@ -41,7 +41,7 @@ const VantaGlobe = () => {
   return (
     <div
       ref={vantaRef}
-      className="w-full h-screen fixed top-0 left-0 z-[-1] pointer-events-none opacity-50"
+      className="w-screen min-h-screen fixed top-0 left-0 z-[-1] pointer-events-none opacity-50 "
     ></div>
   );
 };
