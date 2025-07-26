@@ -7,7 +7,6 @@ export function InteractiveHoverButtonDemo() {
   return <InteractiveHoverButton></InteractiveHoverButton>;
 }
 
-function App() {
   return (
     <>
       <section className="relative min-h-screen overflow-hidden">
