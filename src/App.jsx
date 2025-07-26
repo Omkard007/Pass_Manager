@@ -10,21 +10,21 @@ const App = () => {
           <VantaBackground />
         </div>
 
-        <div className="flex flex-col py-50 min-h-screen px-20">
-          <h1 className="font-Lacquer-Regular text-6xl font-bold text-rosePink">
+        <div className="flex flex-col py-80 md:py-50 md:px-10 lg:py-50 lg:px-30  min-h-screen px-5">
+          <h1 className="font-Lacquer-Regular text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-rosePink ">
             Welcome to Pass_Manager
           </h1>
-          <p className="font-Lacquer-Regular text-xl text-white py-6 max-w-2xl">
+          <p className="font-Lacquer-Regular text-xs md:text-xl text-white py-3 md:py-4 md:px-3 max-w-2xl">
             Securely store and manage all your passwords in one place
           </p>
         </div>
       </section>
 
       <section className="bg-black min-h-screen border-t flex flex-col items-center justify-center text-center px-6">
-        <h2 className="font-Lacquer-Regular text-5xl font-bold text-rosePink">
+        <h2 className="font-Lacquer-Regular text-3xl md:text-4xl lg:text-5xl font-bold text-rosePink">
           Don’t remember your Password?
         </h2>
-        <p className="font-Lacquer-Regular text-2xl text-white py-6 max-w-4xl">
+        <p className="font-Lacquer-Regular text-xs sm:text-xl md:text-2xl text-white py-6 max-w-4xl">
           Don’t worry, we got you covered!
         </p>
         <div className="pt-10">
