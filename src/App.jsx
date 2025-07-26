@@ -1,12 +1,8 @@
 import VantaBackground from "@/components/ui/VantaGlobe";
-import { Button } from "@/components/ui/button";
 import { InteractiveHoverButton } from "@/components/magicui/interactive-hover-button";
+import { NavLink } from "react-router-dom";
 
-
-export function InteractiveHoverButtonDemo() {
-  return <InteractiveHoverButton></InteractiveHoverButton>;
-}
-
+const App = () => {
   return (
     <>
       <section className="relative min-h-screen overflow-hidden">
@@ -14,7 +10,6 @@ export function InteractiveHoverButtonDemo() {
           <VantaBackground />
         </div>
 
-        {/* Foreground Content */}
         <div className="flex flex-col py-50 min-h-screen px-20">
           <h1 className="font-Lacquer-Regular text-6xl font-bold text-rosePink">
             Welcome to Pass_Manager
@@ -22,22 +17,22 @@ export function InteractiveHoverButtonDemo() {
           <p className="font-Lacquer-Regular text-xl text-white py-6 max-w-2xl">
             Securely store and manage all your passwords in one place
           </p>
-        
         </div>
       </section>
 
-      {/* Section 2 - Black Background */}
       <section className="bg-black min-h-screen border-t flex flex-col items-center justify-center text-center px-6">
         <h2 className="font-Lacquer-Regular text-5xl font-bold text-rosePink">
-          Dont remember your Password?
+          Don’t remember your Password?
         </h2>
         <p className="font-Lacquer-Regular text-2xl text-white py-6 max-w-4xl">
-          Dont worry, we got you covered!
+          Don’t worry, we got you covered!
         </p>
         <div className="pt-10">
-         <InteractiveHoverButton>Get Started</InteractiveHoverButton>
+          <NavLink to="/password">
+            <InteractiveHoverButton>Get Started</InteractiveHoverButton>
+          </NavLink>
         </div>
-      </section> 
+      </section>
     </>
   );
 }
